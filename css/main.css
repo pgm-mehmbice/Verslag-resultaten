@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+main {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0 auto;
+    max-width: 70rem;
+}
+
+.title h1 {
+    font-size: 3rem;
+}
+
+.vragen img {
+    width: 50%;
+}
+
+.vraag1,
+.vraag2,
+.vraag3,
+.vraag4,
+.vraag5 {
+    display: flex;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.vraag3 {
+    border-bottom: none;
+}
+
+.text {
+    margin-left: 1rem;
+}
+
+.gekeken {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
